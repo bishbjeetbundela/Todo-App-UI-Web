@@ -24,6 +24,9 @@
     margin: auto;
     margin-top: 28px;
 }
+.blur-main{
+    filter: blur(6px);
+}
 .upper-div{
     display: flex;
     justify-content: space-around;
@@ -146,7 +149,12 @@
 }
 
 .container-blur{
-    border: 1px solid #b4b0b0;
+    position: absolute;
+    top: 80px;
+    left: 539px;
+}
+.container-thick-border{
+    border: 1px solid #c3bebe;
 }
 
 .blur-card{
@@ -188,28 +196,10 @@
     border: 2px solid #e74c3c;
     font-size: 14px;
 }
-#page-3::before{
-    content: "";
-    background: url("/img/bg-1.jpg") no-repeat;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    filter: blur(6px);
-}
 .next-btn{
     position: absolute;
     right: 15px;
     bottom: 6px;
-}
-#Page-4::before{
-    content: "";
-    background: url("/img/bg-2.jpg") no-repeat;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    filter: blur(7px);
 }
 
 .container .next-btn a button{
