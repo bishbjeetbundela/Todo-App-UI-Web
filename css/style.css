@@ -188,9 +188,9 @@
     border: 2px solid #e74c3c;
     font-size: 14px;
 }
-.container-blur::before{
+#page-3::before{
     content: "";
-    background: url("img/bg-1.jpg") no-repeat;
+    background: url("/img/bg-1.jpg") no-repeat;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -204,7 +204,7 @@
 }
 #Page-4::before{
     content: "";
-    background: url("img/bg-2.jpg") no-repeat;
+    background: url("/img/bg-2.jpg") no-repeat;
     position: absolute;
     height: 100%;
     width: 100%;
