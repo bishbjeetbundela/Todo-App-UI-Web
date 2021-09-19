@@ -197,19 +197,19 @@
     z-index: -1;
     filter: blur(6px);
 }
+.next-btn{
+    position: absolute;
+    right: 15px;
+    bottom: 6px;
+}
 #Page-4::before{
     content: "";
     background: url("img/bg-2.jpg") no-repeat;
     position: absolute;
     height: 100%;
-    width: 63%;
+    width: 100%;
     z-index: -1;
     filter: blur(7px);
-}
-.next-btn{
-    position: absolute;
-    right: 15px;
-    bottom: 6px;
 }
 
 .container .next-btn a button{
